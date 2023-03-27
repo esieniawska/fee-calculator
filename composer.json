@@ -11,5 +11,18 @@
         "psr-4": {
             "PragmaGoTech\\Interview\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PragmaGoTech\\Interview\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "myclabs/php-enum": "^1.8",
+        "symfony/console": "^6.2"
+    },
+    "require-dev": {
+        "phpspec/prophecy-phpunit": "^2.0"
     }
 }
